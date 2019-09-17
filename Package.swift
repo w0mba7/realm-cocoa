@@ -16,6 +16,7 @@ let cxxSettings: [CXXSetting] = [
     .define("REALM_VERSION", to: "\"\(coreVersionStr)\""),
 
     .define("REALM_NO_CONFIG"),
+    .defing("REALM_ENABLE_SYNC", to: "1"),
     .define("REALM_INSTALL_LIBEXECDIR", to: ""),
     .define("REALM_ENABLE_ASSERTIONS", to: "1"),
     .define("REALM_ENABLE_ENCRYPTION", to: "1"),
